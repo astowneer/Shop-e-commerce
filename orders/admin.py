@@ -78,5 +78,5 @@ class OrderAdmin(admin.ModelAdmin):
         "paid", "created", "updated"
     ]
     inlines = [OrderItemAdmin]
-    actions=[export_to_csv]
+    actions = [export_to_csv]
 
